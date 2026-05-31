@@ -10,8 +10,8 @@ import { Lato } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'Premium Laundry Services | Recolección y Entrega de Lavandería',
-  description: 'Servicios de lavandería premium en Augusta, Georgia. Recogemos, lavamos, doblamos y entregamos tu ropa limpia y fresca a domicilio. ¡Agenda hoy mismo tu servicio!',
+  title: "Premium Laundry Services | Recolección y Entrega de Lavandería",
+  description: "Servicios de lavandería premium en Augusta, Georgia. Recogemos, lavamos, doblamos y entregamos tu ropa limpia y fresca a domicilio. ¡Agenda hoy mismo tu servicio!",
   keywords: ["lavandería, servicio a domicilio, Augusta Georgia, lavandería premium, limpieza de ropa, recolección y entrega, suscripción lavandería"],
   openGraph: {
     "title": "Premium Laundry Services",
