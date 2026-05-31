@@ -209,7 +209,7 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiling-worker-talking-phone_23-2147562047.jpg",          imageAlt: "Laura S."},
         {
           id: "6",          name: "Jorge A.",          handle: "@jorgea",          testimonial: "Al principio dudaba, pero ahora no puedo vivir sin ellos. El plan ilimitado es el mejor valor para mi familia.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-wise-senior-man-posing-studio_23-2149883514.jpg",          alt: "Jorge A."},
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-wise-senior-man-posing-studio_23-2149883514.jpg",          imageAlt: "Jorge A."},
       ]}
       showRating={true}
       title="Lo que dicen nuestros clientes"
