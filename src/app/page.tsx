@@ -177,6 +177,11 @@ export default function LandingPage() {
       title="Planes de Membresía Premium"
       description="Simplifica tu vida con nuestras membresías exclusivas. Disfruta de lavandería sin preocupaciones, ahorros significativos y un servicio prioritario diseñado para tu comodidad."
       tagAnimation="none"
+      buttons={[
+        {
+          text: "Suscríbete Ahora",          href: "#contact"
+        }
+      ]}
       buttonAnimation="none"
     />
   </div>
@@ -204,7 +209,7 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiling-worker-talking-phone_23-2147562047.jpg",          imageAlt: "Laura S."},
         {
           id: "6",          name: "Jorge A.",          handle: "@jorgea",          testimonial: "Al principio dudaba, pero ahora no puedo vivir sin ellos. El plan ilimitado es el mejor valor para mi familia.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-wise-senior-man-posing-studio_23-2149883514.jpg",          imageAlt: "Jorge A."},
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-wise-senior-man-posing-studio_23-2149883514.jpg",          alt: "Jorge A."},
       ]}
       showRating={true}
       title="Lo que dicen nuestros clientes"
@@ -270,8 +275,6 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterCard
-      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ETIrw2UXXmzKejhr1JTPbva6gV/uploaded-1780203712602-frguudqj.png"
-      logoAlt="Premium Laundry Services Logo"
       logoText="Premium Laundry Services"
       copyrightText="© 2024 Premium Laundry Services. Todos los derechos reservados."
       socialLinks={[
